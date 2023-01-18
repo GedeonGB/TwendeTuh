@@ -16,7 +16,7 @@ struct ScreenOne: View {
                 CircleNumber(color: .blue, number: 1)
                     .navigationBarTitle("First one" )
                     .offset(y: -60)
-                
+                 
                 NavigationLink(destination: ScreenTwo(color: .orange), label: {
                     Text("Next screen")
                     .bold()
@@ -53,20 +53,6 @@ struct ScreenTwo: View {
     }
 }
 
-struct ScreenThree: View {
-    
-    var color: Color
-    var body: some View {
-        
-        
-        VStack {
-            CircleNumber(color: color, number: 3)
-                .navigationBarTitle("Third one")
-                .offset(y: -60)
-            
-        }
-    }
-}
 
 
 struct CircleNumber: View {

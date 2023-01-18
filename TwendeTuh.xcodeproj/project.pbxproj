@@ -15,6 +15,7 @@
 		04B098F02976A2A600D5BB61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B098EE2976A2A600D5BB61 /* LaunchScreen.storyboard */; };
 		04B098FB2976A2A600D5BB61 /* TwendeTuhTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B098FA2976A2A600D5BB61 /* TwendeTuhTests.swift */; };
 		04B099062976A2A600D5BB61 /* TwendeTuhUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B099052976A2A600D5BB61 /* TwendeTuhUITests.swift */; };
+		04B0991629784D6700D5BB61 /* ScreenThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B0991529784D6700D5BB61 /* ScreenThree.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		04B099012976A2A600D5BB61 /* TwendeTuhUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwendeTuhUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04B099052976A2A600D5BB61 /* TwendeTuhUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwendeTuhUITests.swift; sourceTree = "<group>"; };
 		04B099072976A2A600D5BB61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04B0991529784D6700D5BB61 /* ScreenThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenThree.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				04B098EE2976A2A600D5BB61 /* LaunchScreen.storyboard */,
 				04B098F12976A2A600D5BB61 /* Info.plist */,
 				04B098EB2976A2A500D5BB61 /* Preview Content */,
+				04B0991529784D6700D5BB61 /* ScreenThree.swift */,
 			);
 			path = TwendeTuh;
 			sourceTree = "<group>";
@@ -267,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04B0991629784D6700D5BB61 /* ScreenThree.swift in Sources */,
 				04B098E42976A29100D5BB61 /* AppDelegate.swift in Sources */,
 				04B098E62976A29100D5BB61 /* SceneDelegate.swift in Sources */,
 				04B098E82976A29100D5BB61 /* ScreenOne.swift in Sources */,
