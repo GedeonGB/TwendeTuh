@@ -36,7 +36,6 @@ struct ScreenTwo: View {
     var color: Color
     var body: some View {
         
-        
         VStack {
             CircleNumber(color: color, number: 2)
                 .navigationBarTitle("Second one")
